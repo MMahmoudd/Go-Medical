@@ -25,7 +25,7 @@ You can create the following extra directories, some of which have special behav
 
 ### `assets`
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+The assets directory contains your uncompiled assets such as Stylus or Sass files or fonts.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
 
@@ -57,6 +57,7 @@ More information about the usage of this directory in [the documentation](https:
 ### `static`
 
 This directory contains your static files. Each file inside this directory is mapped to `/`.
+The static directory contains your images.
 
 Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
