@@ -2,7 +2,7 @@
     <div class="inboundHeader-component">
       <div class="container">
         <div class="row">
-            <h2 class="prymary-header p-0"> <img src="../../../static/images/travel icon 3.svg" alt="INBOUND"> INBOUND TRAVEL</h2>
+            <h2 class="prymary-header p-0"> <img src="../../../assets/images/travel icon 3.svg" alt="INBOUND"> INBOUND TRAVEL</h2>
             <p>
               Your list of  Travelling around the world is not complete unless you have Dubai and Egypt on your list. Come and experience with us the heritage, culture, warmth and hospitality.<br /><br />
 

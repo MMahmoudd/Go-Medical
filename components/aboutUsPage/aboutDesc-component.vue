@@ -24,10 +24,10 @@
 
 <script>
 import mainSliderComponent from '../services/mainSlider-component.vue'
-import sliderImages1 from '../../static/images/Images for all/5.jpg'
-import sliderImages2 from '../../static/images/Images for all/6.jpg'
-import sliderImages3 from '../../static/images/Images for all/7.jpg'
-import sliderImages4 from '../../static/images/Images for all/8.jpg'
+import sliderImages1 from '../../assets/images/Images for all/5.jpg'
+import sliderImages2 from '../../assets/images/Images for all/6.jpg'
+import sliderImages3 from '../../assets/images/Images for all/7.jpg'
+import sliderImages4 from '../../assets/images/Images for all/8.jpg'
 export default {
   components: {
     mainSliderComponent,

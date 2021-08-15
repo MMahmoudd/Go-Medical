@@ -1,7 +1,7 @@
 <template>
   <div class="contact-component">
     <!-- <div class="img-background">
-      <img src="../static/images/contact BG.png" alt="background">
+      <img src="../assets/images/contact BG.png" alt="background">
     </div> -->
     <div class="overlay">
       <div class="container ">

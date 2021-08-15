@@ -2,7 +2,7 @@
     <div class="religioosHeader-component">
       <div class="container">
         <div class="row">
-            <h2 class="prymary-header p-0"> <img src="../../../static/images/travel icon 4.svg" alt="religioos"> RELIGIOUS TRIPS</h2>
+            <h2 class="prymary-header p-0"> <img src="../../../assets/images/travel icon 4.svg" alt="religioos"> RELIGIOUS TRIPS</h2>
             <p>
               Experience and what it offers in terms of strengthened foundation and continuous fine tuning, along with our keen dedication to offer the highest level of service consistently are the keys to our sustained success.
               <br /><br />

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="logo">
         <NuxtLink to="/">
-          <img src="../../../static/images/logo.svg" alt="logo">
+          <img src="../../../assets/images/logo.svg" alt="logo">
         </NuxtLink>
       </div>
       <div class="links">

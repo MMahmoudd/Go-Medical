@@ -18,15 +18,15 @@
 <script>
 import mainSliderComponent from '../mainSlider-component.vue'
 
-import sliderImages1 from '../../../static/images/RELIGIOUS/1.jpg'
-import sliderImages2 from '../../../static/images/RELIGIOUS/2.jpg'
-import sliderImages3 from '../../../static/images/RELIGIOUS/1.jpg'
-import sliderImages4 from '../../../static/images/RELIGIOUS/3.jpg'
+import sliderImages1 from '../../../assets/images/RELIGIOUS/1.jpg'
+import sliderImages2 from '../../../assets/images/RELIGIOUS/2.jpg'
+import sliderImages3 from '../../../assets/images/RELIGIOUS/1.jpg'
+import sliderImages4 from '../../../assets/images/RELIGIOUS/3.jpg'
 
-import sliderImages5 from '../../../static/images/RELIGIOUS/1.png'
-import sliderImages6 from '../../../static/images/RELIGIOUS/4.jpg'
-import sliderImages7 from '../../../static/images/RELIGIOUS/5.jpg'
-import sliderImages8 from '../../../static/images/RELIGIOUS/6.jpg'
+import sliderImages5 from '../../../assets/images/RELIGIOUS/1.png'
+import sliderImages6 from '../../../assets/images/RELIGIOUS/4.jpg'
+import sliderImages7 from '../../../assets/images/RELIGIOUS/5.jpg'
+import sliderImages8 from '../../../assets/images/RELIGIOUS/6.jpg'
 
 export default {
   components: {

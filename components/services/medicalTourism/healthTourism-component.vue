@@ -6,7 +6,7 @@
             <mainSliderComponent :sliderImages='sliderImages'/>
           </div>
           <div class="col-md-6">
-            <h2 class="prymary-header p-0"> <img src="../../../static/images/travel icon 7.svg" alt="HEALTH TOURISM "> HEALTH TOURISM</h2>
+            <h2 class="prymary-header p-0"> <img src="../../../assets/images/travel icon 7.svg" alt="HEALTH TOURISM "> HEALTH TOURISM</h2>
             <p>
               We have close ties with reputable hospitals & medical centers in Egypt. <br /><br />
 
@@ -56,10 +56,10 @@
 <script>
 import mainSliderComponent from '../mainSlider-component.vue'
 
-import sliderImages1 from '../../../static/images/Medical Tourism/1.jpg'
-import sliderImages2 from '../../../static/images/Medical Tourism/2.jpg'
-import sliderImages3 from '../../../static/images/Medical Tourism/1.jpg'
-import sliderImages4 from '../../../static/images/Medical Tourism/3.jpg'
+import sliderImages1 from '../../../assets/images/Medical Tourism/1.jpg'
+import sliderImages2 from '../../../assets/images/Medical Tourism/2.jpg'
+import sliderImages3 from '../../../assets/images/Medical Tourism/1.jpg'
+import sliderImages4 from '../../../assets/images/Medical Tourism/3.jpg'
 
 export default {
   components: {

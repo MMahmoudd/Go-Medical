@@ -1,20 +1,20 @@
 <template>
   <div class="goals-component">
     <div class="img-background">
-      <img src="../../static/images/map BG.png" alt="background">
+      <img src="../../assets/images/map BG.png" alt="background">
     </div>
     <div class="overlay">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="image">
-              <img src="../../static/images/goals.png" alt="goals image">
+              <img src="../../assets/images/goals.png" alt="goals image">
             </div>
           </div>
           <div class="col-md-6">
             <div class="d-flex">
               <div class="icon">
-                <img src="../../static/images/goals icon.svg" alt="goals icon">
+                <img src="../../assets/images/goals icon.svg" alt="goals icon">
               </div>
               <div class="content">
                 <h2>We Fly Goals</h2>

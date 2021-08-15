@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-md-3 col-sm-6">
             <div class="icon">
-              <img src="../../static/images/our service 1.svg" alt="service 1">
+              <img src="../../assets/images/our service 1.svg" alt="service 1">
             </div>
             <div class="content" @click="showModal(Ticketing)">
               <h2>Ticketing</h2>
@@ -13,7 +13,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="icon">
-              <img src="../../static/images/our service 2.svg" alt="service 2">
+              <img src="../../assets/images/our service 2.svg" alt="service 2">
             </div>
             <div class="content" @click="showModal(WorldwideHotelBookings)">
               <h2>Worldwide Hotel Bookings</h2>
@@ -21,7 +21,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="icon">
-              <img src="../../static/images/our service 3.svg" alt="service 3">
+              <img src="../../assets/images/our service 3.svg" alt="service 3">
             </div>
             <div class="content" @click="showModal(visas)">
               <h2>Visas</h2>
@@ -29,7 +29,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="icon">
-              <img src="../../static/images/our service 4.svg" alt="service 4">
+              <img src="../../assets/images/our service 4.svg" alt="service 4">
             </div>
             <div class="content" @click="showModal(Packages)">
               <h2>Packages</h2>
@@ -37,7 +37,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="icon">
-              <img src="../../static/images/our service 5.svg" alt="service 5">
+              <img src="../../assets/images/our service 5.svg" alt="service 5">
             </div>
             <div class="content" @click="showModal(ActivitiesSightseeing)">
               <h2>Activities & Sightseeing</h2>
@@ -45,7 +45,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="icon">
-              <img src="../../static/images/our service 6.svg" alt="service 6">
+              <img src="../../assets/images/our service 6.svg" alt="service 6">
             </div>
             <div class="content" @click="showModal(MeetAssist)">
               <h2>Meet & Assist</h2>
@@ -53,7 +53,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="icon">
-              <img src="../../static/images/our service 7.svg" alt="service 7">
+              <img src="../../assets/images/our service 7.svg" alt="service 7">
             </div>
             <div class="content" @click="showModal(TRANSFARS)">
               <h2>Transfers</h2>
@@ -61,7 +61,7 @@
           </div>
           <div class="col-md-3 col-sm-6" v-if="this.$route.path === '/service/corporateTravel'">
             <div class="icon">
-              <img src="../../static/images/our service 8.svg" alt="service 8">
+              <img src="../../assets/images/our service 8.svg" alt="service 8">
             </div>
             <div class="content">
               <h2>M.I.C.E.</h2>
@@ -102,14 +102,14 @@
 </template>
 
 <script>
-import icon1 from '../../static/images/our service O 1.svg'
-import icon2 from '../../static/images/our service O 2.svg'
-import icon3 from '../../static/images/our service O 3.svg'
-import icon4 from '../../static/images/our service O 4.svg'
-import icon5 from '../../static/images/our service O 5.svg'
-import icon6 from '../../static/images/our service O 6.svg'
-import icon7 from '../../static/images/our service O 7.svg'
-// import icon8 from '../../static/images/our service O 8.svg'
+import icon1 from '../../assets/images/our service O 1.svg'
+import icon2 from '../../assets/images/our service O 2.svg'
+import icon3 from '../../assets/images/our service O 3.svg'
+import icon4 from '../../assets/images/our service O 4.svg'
+import icon5 from '../../assets/images/our service O 5.svg'
+import icon6 from '../../assets/images/our service O 6.svg'
+import icon7 from '../../assets/images/our service O 7.svg'
+// import icon8 from '../../assets/images/our service O 8.svg'
 
 export default {
     data() {

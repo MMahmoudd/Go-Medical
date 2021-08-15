@@ -18,15 +18,15 @@
 <script>
 import mainSliderComponent from '../mainSlider-component.vue'
 
-import sliderImages1 from '../../../static/images/Inbound/1.jpg'
-import sliderImages2 from '../../../static/images/Inbound/2.jpg'
-import sliderImages3 from '../../../static/images/Inbound/3.jpg'
-import sliderImages4 from '../../../static/images/Inbound/4.jpg'
+import sliderImages1 from '../../../assets/images/Inbound/1.jpg'
+import sliderImages2 from '../../../assets/images/Inbound/2.jpg'
+import sliderImages3 from '../../../assets/images/Inbound/3.jpg'
+import sliderImages4 from '../../../assets/images/Inbound/4.jpg'
 
-import sliderImages5 from '../../../static/images/Inbound/8.png'
-import sliderImages6 from '../../../static/images/Inbound/9.png'
-import sliderImages7 from '../../../static/images/Inbound/10.png'
-import sliderImages8 from '../../../static/images/Inbound/11.png'
+import sliderImages5 from '../../../assets/images/Inbound/8.png'
+import sliderImages6 from '../../../assets/images/Inbound/9.png'
+import sliderImages7 from '../../../assets/images/Inbound/10.png'
+import sliderImages8 from '../../../assets/images/Inbound/11.png'
 
 export default {
   components: {

@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2 class="prymary-header p-0"> <img src="../../../static/images/travel icon 2.svg" alt="corprate"> OUTBOUND TRAVEL</h2>
+            <h2 class="prymary-header p-0"> <img src="../../../assets/images/travel icon 2.svg" alt="corprate"> OUTBOUND TRAVEL</h2>
             <p>
               Rely on us to plan a special surprise for your loved ones, seek out off the beaten track locations, find a tropical paradise, a rainforest retreat, or whisk you away for a romantic weekend.<br /><br />
 
@@ -23,10 +23,10 @@
 
 <script>
 import mainSliderComponent from '../mainSlider-component.vue'
-import sliderImages1 from '../../../static/images/Outbound/1.jpg'
-import sliderImages2 from '../../../static/images/Outbound/2.jpg'
-import sliderImages3 from '../../../static/images/Outbound/1.jpg'
-import sliderImages4 from '../../../static/images/Outbound/3.jpg'
+import sliderImages1 from '../../../assets/images/Outbound/1.jpg'
+import sliderImages2 from '../../../assets/images/Outbound/2.jpg'
+import sliderImages3 from '../../../assets/images/Outbound/1.jpg'
+import sliderImages4 from '../../../assets/images/Outbound/3.jpg'
 
 export default {
   components: {

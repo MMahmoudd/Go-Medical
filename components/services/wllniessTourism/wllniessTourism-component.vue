@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2 class="prymary-header p-0"> <img src="../../../static/images/travel icon 6.svg" alt="corprate"> WELLNIES TOURISM</h2>
+            <h2 class="prymary-header p-0"> <img src="../../../assets/images/travel icon 6.svg" alt="corprate"> WELLNIES TOURISM</h2>
             <p>
                We expect the launch of several programs for the fall & winter of 2021-2020.  <br /><br />
 
@@ -20,10 +20,10 @@
 
 <script>
 import mainSliderComponent from '../mainSlider-component.vue'
-  import sliderImages1 from '../../../static/images/slider image 11.png'
-  import sliderImages2 from '../../../static/images/Images for all/2.jpg'
-  import sliderImages3 from '../../../static/images/slider image 11.png'
-  import sliderImages4 from '../../../static/images/Images for all/9.jpg'
+  import sliderImages1 from '../../../assets/images/slider image 11.png'
+  import sliderImages2 from '../../../assets/images/Images for all/2.jpg'
+  import sliderImages3 from '../../../assets/images/slider image 11.png'
+  import sliderImages4 from '../../../assets/images/Images for all/9.jpg'
 export default {
   components: {
     mainSliderComponent,

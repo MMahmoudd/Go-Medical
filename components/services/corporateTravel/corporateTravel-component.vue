@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2 class="prymary-header p-0"> <img src="../../../static/images/travel icon 1.svg" alt="corprate"> Corporate Travel</h2>
+            <h2 class="prymary-header p-0"> <img src="../../../assets/images/travel icon 1.svg" alt="corprate"> Corporate Travel</h2>
             <p>
               We Fly Plus Travel offers a highly experienced team of corporate travel consultants, handling all business travel needs from scheduled and private air travel and hotel reservations through to car and chauffeur hire and rail reservations.<br /><br />
 
@@ -23,10 +23,10 @@
 
 <script>
 import mainSliderComponent from '../mainSlider-component.vue'
-import sliderImages1 from '../../../static/images/Corperate/1.jpg'
-import sliderImages2 from '../../../static/images/Corperate/2.jpg'
-import sliderImages3 from '../../../static/images/Corperate/3.jpg'
-import sliderImages4 from '../../../static/images/Corperate/5.png'
+import sliderImages1 from '../../../assets/images/Corperate/1.jpg'
+import sliderImages2 from '../../../assets/images/Corperate/2.jpg'
+import sliderImages3 from '../../../assets/images/Corperate/3.jpg'
+import sliderImages4 from '../../../assets/images/Corperate/5.png'
 
 export default {
   components: {

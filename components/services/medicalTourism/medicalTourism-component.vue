@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="prymary-header p-0"> <img src="../../../static/images/travel icon 5.svg" alt="medical Tourism">
+          <h2 class="prymary-header p-0"> <img src="../../../assets/images/travel icon 5.svg" alt="medical Tourism">
             Medical Tourism</h2>
           <p>
             Historically Pharos 5000 B.C. was the first nation to practice medicine and apply many novel techniques in
@@ -58,10 +58,10 @@
 
 <script>
   import mainSliderComponent from '../mainSlider-component.vue'
-  import sliderImages1 from '../../../static/images/Medical Tourism/1.jpg'
-  import sliderImages2 from '../../../static/images/Medical Tourism/2.jpg'
-  import sliderImages3 from '../../../static/images/Medical Tourism/1.jpg'
-  import sliderImages4 from '../../../static/images/Medical Tourism/3.jpg'
+  import sliderImages1 from '../../../assets/images/Medical Tourism/1.jpg'
+  import sliderImages2 from '../../../assets/images/Medical Tourism/2.jpg'
+  import sliderImages3 from '../../../assets/images/Medical Tourism/1.jpg'
+  import sliderImages4 from '../../../assets/images/Medical Tourism/3.jpg'
 
   export default {
     components: {

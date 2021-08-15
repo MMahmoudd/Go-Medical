@@ -12,7 +12,7 @@
           </div>
           <div class="col-md-4">
                 <b-card>
-                  <img src="../../static/images/travel icon 1.svg" alt="icon one">
+                  <img src="../../assets/images/travel icon 1.svg" alt="icon one">
                   <h2>Corporate Travel</h2>
                   <b-card-text>
                     We Fly Plus Travel offers a highly experienced team of corporate travel consultants, handling all business.....
@@ -23,7 +23,7 @@
               </div>
               <div class="col-md-4">
                 <b-card>
-                  <img src="../../static/images/travel icon 2.svg" alt="icon two">
+                  <img src="../../assets/images/travel icon 2.svg" alt="icon two">
                   <h2>Outbound Travel</h2>
                   <b-card-text>
                     Rely on us to plan a special surprise for your loved ones, seek out off the beaten track locations, find a tropical paradise, ….

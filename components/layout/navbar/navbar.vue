@@ -3,7 +3,7 @@
   <b-navbar toggleable="lg" type="dark">
   <div class="container">
     <b-navbar-brand to="/" class="brand">
-      <img src="../../../static/images/logo.svg" alt="logo">
+      <img src="../../../assets/images/logo.svg" alt="logo">
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

@@ -1,14 +1,14 @@
 <template>
   <div class="misionAndVision-component">
     <div class="img-background">
-      <img src="../../static/images/pyrameds.png" alt="background">
+      <img src="../../assets/images/pyrameds.png" alt="background">
     </div>
     <div class="overlay">
       <div class="container ">
         <div class="row">
           <div class="col-md-6">
             <div class="icon">
-              <img src="../../static/images/telescope.svg" alt="telescope icon">
+              <img src="../../assets/images/telescope.svg" alt="telescope icon">
             </div>
             <div class="content">
               <h2>MISSION</h2>
@@ -17,7 +17,7 @@
           </div>
           <div class="col-md-6">
             <div class="icon">
-              <img src="../../static/images/rocket.svg" alt="rocket icon">
+              <img src="../../assets/images/rocket.svg" alt="rocket icon">
             </div>
             <div class="content">
               <h2>Vision</h2>
