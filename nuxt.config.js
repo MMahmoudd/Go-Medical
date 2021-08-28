@@ -12,7 +12,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/icon.png' },
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.9.0/css/all.css'},
       { href: 'https://fonts.googleapis.com', rel:'preconnect'},
       { href: 'https://fonts.gstatic.com', rel:'preconnect'},
@@ -43,8 +43,25 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@nuxtjs/pwa'
   ],
-
+  pwa: {
+    meta: {
+      title: 'We Fly Plus',
+      author: 'Go Plus',
+    },
+    manifest: {
+      name: 'We Fly Plus',
+      short_name: "We Fly Plus",
+      description: 'Welcome in We Fly Plus',
+      lang: 'en',
+      display: "standalone",
+      start_url: "/?standalone=true"
+    },
+    icon: {
+      source: "./static/icon.png",
+    },
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     // analyze: true,
