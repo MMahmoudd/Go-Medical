@@ -1,0 +1,80 @@
+{
+  "MainHeaderComponent": {
+    "description": "Auto imported from components/mainHeader-component.vue"
+  },
+  "ClientPageClientsComponent": {
+    "description": "Auto imported from components/clientPage/clients-component.vue"
+  },
+  "ContactFormComponent": {
+    "description": "Auto imported from components/contactUsPage/contactForm-component.vue"
+  },
+  "AboutDescComponent": {
+    "description": "Auto imported from components/aboutUsPage/aboutDesc-component.vue"
+  },
+  "AboutUsPageGoalsComponent": {
+    "description": "Auto imported from components/aboutUsPage/goals-component.vue"
+  },
+  "AboutUsPageMisionAndVisionComponent": {
+    "description": "Auto imported from components/aboutUsPage/misionAndVision-component.vue"
+  },
+  "HomePageAboutUsComponent": {
+    "description": "Auto imported from components/homePage/aboutUs-component.vue"
+  },
+  "HomePageContactUsComponent": {
+    "description": "Auto imported from components/homePage/contactUs-component.vue"
+  },
+  "HomePageHeaderComponent": {
+    "description": "Auto imported from components/homePage/header-component.vue"
+  },
+  "HomePageOurServiceComponent": {
+    "description": "Auto imported from components/homePage/ourService-component.vue"
+  },
+  "ServicesMainSliderComponent": {
+    "description": "Auto imported from components/services/mainSlider-component.vue"
+  },
+  "ServicesOurMainServices": {
+    "description": "Auto imported from components/services/ourMainServices.vue"
+  },
+  "ServicesComponent": {
+    "description": "Auto imported from components/servicesPage/services-component.vue"
+  },
+  "LayoutFooter": {
+    "description": "Auto imported from components/layout/footer/footer.vue"
+  },
+  "LayoutNavbar": {
+    "description": "Auto imported from components/layout/navbar/navbar.vue"
+  },
+  "ServicesCorporateTravelComponent": {
+    "description": "Auto imported from components/services/corporateTravel/corporateTravel-component.vue"
+  },
+  "ServicesCorporateTravelMainServices": {
+    "description": "Auto imported from components/services/corporateTravel/mainServices.vue"
+  },
+  "ServicesInboundTravelHeader": {
+    "description": "Auto imported from components/services/inboundTravel/header.vue"
+  },
+  "ServicesInboundTravelSliders": {
+    "description": "Auto imported from components/services/inboundTravel/sliders.vue"
+  },
+  "ServicesMedicalTourismHealthTourismComponent": {
+    "description": "Auto imported from components/services/medicalTourism/healthTourism-component.vue"
+  },
+  "ServicesMedicalTourismComponent": {
+    "description": "Auto imported from components/services/medicalTourism/medicalTourism-component.vue"
+  },
+  "ServicesMedicalTourismProcessComponent": {
+    "description": "Auto imported from components/services/medicalTourism/process-component.vue"
+  },
+  "ServicesOutboundTravelComponent": {
+    "description": "Auto imported from components/services/OutboundTravel/OutboundTravel-component.vue"
+  },
+  "ServicesReligioosTripsHeader": {
+    "description": "Auto imported from components/services/religioosTrips/header.vue"
+  },
+  "ServicesReligioosTripsSliders": {
+    "description": "Auto imported from components/services/religioosTrips/sliders.vue"
+  },
+  "ServicesWllniessTourismComponent": {
+    "description": "Auto imported from components/services/wllniessTourism/wllniessTourism-component.vue"
+  }
+}

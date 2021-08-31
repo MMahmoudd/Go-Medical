@@ -1,14 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'We Fly Plus',
+    title: 'Go Medical Services',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Welcome in We Fly Plus' },
+      { hid: 'description', name: 'description', content: 'Welcome in Go Medical Services' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -47,13 +47,13 @@ export default {
   ],
   pwa: {
     meta: {
-      title: 'We Fly Plus',
+      title: 'Go Medical Services',
       author: 'Go Plus',
     },
     manifest: {
-      name: 'We Fly Plus',
-      short_name: "We Fly Plus",
-      description: 'Welcome in We Fly Plus',
+      name: 'Go Medical Services',
+      short_name: "Go Medical Services",
+      description: 'Welcome in Go Medical Services',
       lang: 'en',
       display: "standalone",
       start_url: "/?standalone=true"

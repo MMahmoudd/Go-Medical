@@ -1,0 +1,79 @@
+[
+  {
+    "name": "about-us",
+    "path": "/about-us",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\about-us.vue",
+    "chunkName": "pages/about-us",
+    "_name": "_23a134b4"
+  },
+  {
+    "name": "client",
+    "path": "/client",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\client.vue",
+    "chunkName": "pages/client",
+    "_name": "_705c14a1"
+  },
+  {
+    "name": "contact-us",
+    "path": "/contact-us",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\contact-us.vue",
+    "chunkName": "pages/contact-us",
+    "_name": "_7a103d7e"
+  },
+  {
+    "name": "services",
+    "path": "/services",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\services.vue",
+    "chunkName": "pages/services",
+    "_name": "_7483b834"
+  },
+  {
+    "name": "service-corporateTravel",
+    "path": "/service/corporateTravel",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\service\\\\corporateTravel.vue",
+    "chunkName": "pages/service/corporateTravel",
+    "_name": "_98106fc0"
+  },
+  {
+    "name": "service-inboundTravel",
+    "path": "/service/inboundTravel",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\service\\\\inboundTravel.vue",
+    "chunkName": "pages/service/inboundTravel",
+    "_name": "_5708c874"
+  },
+  {
+    "name": "service-medicalTourism",
+    "path": "/service/medicalTourism",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\service\\\\medicalTourism.vue",
+    "chunkName": "pages/service/medicalTourism",
+    "_name": "_acf50aae"
+  },
+  {
+    "name": "service-outboundTravel",
+    "path": "/service/outboundTravel",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\service\\\\outboundTravel.vue",
+    "chunkName": "pages/service/outboundTravel",
+    "_name": "_ae17450e"
+  },
+  {
+    "name": "service-religiousTrips",
+    "path": "/service/religiousTrips",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\service\\\\religiousTrips.vue",
+    "chunkName": "pages/service/religiousTrips",
+    "_name": "_fed2bb7c"
+  },
+  {
+    "name": "service-wllniessTourism",
+    "path": "/service/wllniessTourism",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\service\\\\wllniessTourism.vue",
+    "chunkName": "pages/service/wllniessTourism",
+    "_name": "_33bda14e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\projects\\\\companies projects\\\\Full Time\\\\cash less plus\\\\we-fly-plus\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_e1833228"
+  }
+]
