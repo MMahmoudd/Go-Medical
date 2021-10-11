@@ -1,5 +1,23 @@
 <template>
 <div class="navbar-component">
+  <div class="top-nav">
+   <div class="d-flex container">
+      <div class="left d-flex">
+      <div class="mr-2">
+        <i class="fas fa-phone-alt"></i> <span> Phone: (002) 01061245741</span>
+      </div>
+      <div class="ml-2">
+        <i class="fas fa-map-marker-alt"></i> <span> Location: Brooklyn, New York</span>
+      </div>
+      </div>
+      <div class="right">
+        <span class="mx-2">follow</span>
+        <span class="mx-2"><i class="fab fa-facebook-f"></i></span>
+        <span class="mx-2"><i class="fab fa-twitter"></i></span>
+        <span class="mx-2"><i class="fab fa-instagram"></i></span>
+      </div>
+    </div>
+  </div>
   <b-navbar toggleable="lg" type="dark">
   <div class="container">
     <b-navbar-brand to="/" class="brand">
@@ -12,77 +30,26 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <b-nav-item to="/">Home</b-nav-item>
-        <b-nav-item to="/about-us">About US</b-nav-item>
-        <b-nav-item to="/services">Our Services</b-nav-item>
-        <b-nav-item to="/contact-us">Contact US</b-nav-item>
-        <b-button @click="showModal()" size="sm" class="my-sm-0 btn">Get Started</b-button>
+        <b-nav-item to="/aboutUs">About US</b-nav-item>
+        <b-nav-item-dropdown text="Importation and Distribution" right>
+          <b-dropdown-item to="/distributer">Endoscopic accessories</b-dropdown-item>
+          <b-dropdown-item>
+            <div class="dropdown">
+              <button class="dropbtn">In-Vitro Diagnosis<i class="fas fa-sort-down"></i></button>
+              <div class="dropdown-content">
+                <nuxt-link to="/in-vitro-diagnosis">Point-of-care devices</nuxt-link>
+                <nuxt-link to="/chemiluminescence-technology">Chemiluminescence technology</nuxt-link>
+              </div>
+            </div>
+          </b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item to="/medicalService">Medical Services</b-nav-item>
+        <b-nav-item to="/partners">Partners</b-nav-item>
+        <b-nav-item to="/contact">Contact</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
     </div>
   </b-navbar>
-  <b-modal
-    ref="my-dialog"
-    header-bg-variant="004497"
-    centered
-    size="lg"
-    hide-footer
-    title="Your Requirements"
-  >
-          <div class="contactForm text-center">
-              <b-form @submit="onSubmit" v-if="show">
-                <div class="row">
-                  <div class="col-md-12">
-                      <b-form-group
-                      id="input-group-1"
-                      label-for="input-1"
-                      >
-                      <b-form-input
-                        id="input-1"
-                        v-model="form.name"
-                        type="text"
-                        placeholder="Name"
-                        required
-                      ></b-form-input>
-                    </b-form-group>
-                  </div>
-                <div class="col-md-6">
-                  <b-form-group id="input-group-2" label-for="input-3">
-                    <b-form-input
-                      id="input-3"
-                      type="tel"
-                      v-model="form.phone"
-                      placeholder="phone"
-                      required
-                    ></b-form-input>
-                  </b-form-group>
-                </div>
-                <div class="col-md-6">
-                  <b-form-group id="input-group-2" label-for="input-4">
-                    <b-form-input
-                      id="input-4"
-                      type="email"
-                      v-model="form.email"
-                      placeholder="Email"
-                      required
-                    ></b-form-input>
-                  </b-form-group>
-                </div>
-                <div class="col-md-12">
-                  <b-form-group id="input-group-2" label-for="input-5">
-                    <b-form-textarea
-                      id="input-5"
-                      v-model="form.message"
-                      placeholder="Other Details"
-                      rows="3"
-                      max-rows="6"
-                    ></b-form-textarea>
-                  </b-form-group>
-                </div>
-                </div>
-                <b-button class="btn" type="submit">Send</b-button>
-              </b-form>
-            </div>
-        </b-modal>
 </div>
 </template>
 
@@ -90,41 +57,7 @@
 export default {
     data() {
       return {
-          form: {
-          email: '',
-          name: '',
-          country: '',
-          phone: '',
-          message: '',
-        },
-        show: true
         };
    },
-    methods: {
-      showModal() {
-        this.$refs['my-dialog'].show()
-      },
-      hideModal() {
-        this.$refs['my-dialog'].hide()
-      },
-      onSubmit(event) {
-        event.preventDefault()
-        alert(JSON.stringify(this.form))
-        this.onReset()
-      },
-      onReset(event) {
-        event.preventDefault()
-        // Reset our form values
-        this.form.email = ''
-        this.form.name = ''
-        this.form.message = ''
-        this.form.phone = ''
-        // Trick to reset/clear native browser form validation state
-        this.show = false
-        this.$nextTick(() => {
-          this.show = true
-        })
-      }
-    }
 }
 </script>
