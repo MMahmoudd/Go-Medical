@@ -11,7 +11,7 @@
 
 <script>
 import headerComponent from '../../components/globalComponents/global-header.vue'
-import productComponent from '../../components/products/gastroscopy.vue'
+import productComponent from '../../components/products/stone-basket.vue'
 
 export default {
   components: {
@@ -21,7 +21,7 @@ export default {
     data() {
         return {
           globalHeaderData:{
-            header: 'Gastroscopy, Colonoscopy & Enteroscopy',
+            header: 'Stone Extraction Basket',
             pageName: 'Products categories'
           },
         };

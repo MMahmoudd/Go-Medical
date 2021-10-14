@@ -21,10 +21,14 @@ body {
 h1, h2, h3, h4, h5, h6, button, input, textarea{
   font-family: $mainFont !important;
 }
-// global Style in pages
-// .wrapper{
-//   padding-top: 63px;
-// }
+.modal-open{
+  // &:focus, &:focus-visible, &:focus-within{
+    #__nuxt {
+      filter: blur(8px);
+      background-color: rgba(0, 0, 0, 0.808);
+    }
+  // }
+}
 .whiteBlue-btn{
   background-color: $mainColor;
   color: #fff;
@@ -892,6 +896,132 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
         width: 50%;
         height: auto;
       }
+    }
+  }
+}
+
+// start mainProducts-component
+.mainProducts-component{
+  padding: 60px 0;
+  h2{
+    color: $mainColor;
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+  .product-item{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 30px 0;
+    &:hover, &:focus{
+      .product-img{
+        border: 1px solid $mainColor
+      }
+      p{
+        color: $mainColor
+      }
+    }
+    .product-img{
+      width: 100%;
+      height: 100%;
+      border: 1px solid #D8D8D8;
+      border-radius: 10px;
+      padding: 7px 0;
+      box-shadow: 0px 0px 20px 0px #94949473;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    img{
+      width: 100%;
+      max-height: 100%;
+      }
+      p{
+        text-align: center;
+        font-weight: bold;
+        padding-top: 7px;
+      }
+  }
+}
+// start mainCardProduct-component
+.mainCardProduct-component{
+  .pragraph{
+    padding-bottom: 30px;
+  }
+  .product-item{
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 20px 0px #94949473;
+    border: 1px solid #D8D8D8;
+    text-align: center;
+    &:hover, &:focus{
+      border: 1px solid $mainColor;
+      p{
+        color: #fff;
+      }
+      .product-img{
+        border: none;
+      }
+    }
+    .product-img{
+      width: auto;
+      max-width: 100%;
+      border: none;
+      border-radius: 10px 10px 0 0;
+      box-shadow: none;
+    }
+    img{
+      width: auto;
+      max-width: 100%;
+    }
+    p{
+      background-color: $mainColor;
+      border-radius: 0 0 10px 10px;
+      padding: 15px 0;
+      color: #fff;
+    }
+  }
+}
+// Start modal-dialog
+.modal-dialog{
+  .modal-content{
+    border: none;
+    border-radius: 25px;
+  }
+  header{
+    background-color: $mainColor;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px 25px 0 0;
+    .close{
+      color: $mainColor;
+      width: 30px;
+      height: 30px;
+      line-height: 15px;
+      border-radius: 50%;
+      background-color: #fff;
+      top: 15px;
+      right: 15px;
+      padding: 0;
+      margin: unset;
+      opacity: 1;
+    }
+  }
+  .modal-body{
+    padding: 0 30px 30px;
+    .icon{
+      width: 100%;
+      img{
+        max-width: 40%;
+        max-height: 200px;
+      }
+    }
+    .title-header{
+      color: $mainColor;
     }
   }
 }

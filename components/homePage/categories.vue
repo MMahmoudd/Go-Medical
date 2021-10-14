@@ -39,7 +39,7 @@
                         Some quick example text to build on the card title and make up the bulk of the card's content.
                       </b-card-text>-->
 
-                      <b-button to="/product/gastroscopy">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
+                      <b-button to="/product/ERCP">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
                     </b-card>
                 </div>
                 <div class="swiper-slide">
@@ -53,7 +53,7 @@
                       class="mb-2"
                     >
 
-                      <b-button to="/product/gastroscopy">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
+                      <b-button to="/product/EUS">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
                     </b-card>
                 </div>
                 <div class="swiper-slide">

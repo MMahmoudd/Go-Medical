@@ -11,7 +11,7 @@
 
 <script>
 import headerComponent from '../../components/globalComponents/global-header.vue'
-import productComponent from '../../components/products/gastroscopy.vue'
+import productComponent from '../../components/products/Polyp.vue'
 
 export default {
   components: {
@@ -21,7 +21,7 @@ export default {
     data() {
         return {
           globalHeaderData:{
-            header: 'Gastroscopy, Colonoscopy & Enteroscopy',
+            header: 'Polyp & Foreign Body Retrieval',
             pageName: 'Products categories'
           },
         };
