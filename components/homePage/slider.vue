@@ -1,5 +1,5 @@
 <template>
-    <div class="slider-component">
+    <div class="slider-component slider1-component">
         <!-- Swiper -->
         <div class="swiper-container">
           <div v-swiper:mySwiper="swiperOption">
@@ -21,7 +21,7 @@
         <div class="content">
         <div class="overlay">
           <p>Our first priority is customer satisfaction of our physicians, nursing staff and patients. We act customer-oriented and want to support our customers successfully and efficiently.</p>
-          <b-button to="/" class="whiteBlue-btn">More About Us<i class="fas fa-arrow-right ml-2"></i></b-button>
+          <b-button to="/aboutUs" class="whiteBlue-btn">More About Us<i class="fas fa-arrow-right ml-2"></i></b-button>
           </div>
         </div>
         <div class="swiper-button-next"></div>

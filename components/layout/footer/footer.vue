@@ -7,7 +7,7 @@
           <p class="m-0">Please feel free to contact our friendly staff with any medical enquiry.</p>
         </div>
         <div class="button">
-          <b-button class="whiteBlue-btn">Contact Us <i class="fas fa-arrow-right"></i></b-button>
+          <b-button to="/contact" class="whiteBlue-btn">Contact Us <i class="fas fa-arrow-right"></i></b-button>
         </div>
       </div>
     </div>

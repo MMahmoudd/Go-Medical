@@ -11,7 +11,7 @@
             <p v-if="globalArticleData.description3 || globalArticleData.description7">{{globalArticleData.description3 || globalArticleData.description7}}</p>
             <p v-if="globalArticleData.description4 || globalArticleData.description8">{{globalArticleData.description4 || globalArticleData.description8}}</p>
             <p v-if="globalArticleData.description9">{{globalArticleData.description9}}</p>
-            <b-button class="whiteBlue-btn" v-if="globalArticleData.btn">
+            <b-button :to="globalArticleData.btnURL" class="whiteBlue-btn" v-if="globalArticleData.btn">
               {{globalArticleData.btn}} <i class="fas fa-arrow-right ml-2"></i>
             </b-button>
             </div>

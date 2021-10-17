@@ -41,6 +41,11 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
   left: 0px;
   top: 50px;
 }
+@media only screen and (max-width: 575.98px){
+  .prymary-vertical{
+    left: 15px;
+  }
+}
 .headTitle{
   font-weight: 600;
   color: $mainColor;
@@ -63,6 +68,11 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
   }
   .pargraph{
     padding-left: 20px;
+  }
+  @media only screen and (max-width: 767.98px){
+    .pargraph{
+      margin-bottom: 30px;
+    }
   }
 }
 // Start artical2-section
@@ -105,6 +115,14 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
       width: 120px;
       background-color: #fff;
       margin-top: 8px;
+    }
+  }
+}
+@media only screen and (max-width: 767.98px){
+  .globalHeader-component{
+    height: 180px;
+    h1{
+      font-size: 28px;
     }
   }
 }
@@ -181,6 +199,18 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
         }
       }
     }
+    .navbar-toggler{
+      border: 1px solid $mainColor;
+      .navbar-toggler-icon{
+        background-image: unset;
+      }
+      i{
+        color: $mainColor;
+      }
+    }
+    .navbar-collapse{
+      text-align: center;
+    }
   }
 }
 
@@ -229,6 +259,14 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
           background-color: #fff;
           color: $mainColor;
         }
+      }
+    }
+  }
+  @media only screen and (max-width: 767.98px){
+    .footer-details{
+      text-align: center;
+      .logo{
+        margin: 0 auto 15px auto;
       }
     }
   }
@@ -294,9 +332,50 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
       -ms-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
     }
+    @media only screen and (max-width: 767.98px) {
+      .overlay{
+        width: 80%;
+        font-size: 15px;
+      }
+    }
+
+  }
+  @media only screen and (max-width: 767.98px) {
+    .swiper-button-prev, .swiper-button-next{
+      width: 35px;
+      height: 35px;
+      background-size: 15px 15px;
+    }
+    .whiteBlue-btn{
+      font-size: 13px;
+    }
+    .slider-component{
+      height: 300px;
+      .swiper-container{
+        height: 300px;
+        .swiper-slide{
+          img{
+            height: -webkit-fill-available;
+          }
+        }
+      }
+    }
   }
 }
-
+// responsive slider
+@media only screen and (max-width: 767.98px) {
+  .slider1-component{
+    height: 300px;
+    .swiper-container{
+      height: 300px;
+      .swiper-slide{
+        img{
+          height: -webkit-fill-available;
+        }
+      }
+    }
+  }
+}
 // start category-component
 .category-component{
   background-image: url('../images/category\ bg.png');
@@ -313,6 +392,7 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
     border: 1px solid $mainColor;
     border-radius: 20px;
     color: $mainColor;
+    z-index: 2;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -372,7 +452,6 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
     margin: 50px 0;
   }
 }
-
 // start service-component
 .service-component{
   padding: 60px 0;
@@ -480,8 +559,12 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
       }
     }
     .swiper-pagination{
-      transform: translate3d(45%, 0px, 0px);
-    }
+      transform: translate3d(43%, 0px, 0px);
+      -webkit-transform: translate3d(43%, 0px, 0px);
+      -moz-transform: translate3d(43%, 0px, 0px);
+      -ms-transform: translate3d(43%, 0px, 0px);
+      -o-transform: translate3d(43%, 0px, 0px);
+}
     .swiper-pagination-bullets{
       .swiper-pagination-bullet{
         background: #fff;
@@ -1022,6 +1105,9 @@ h1, h2, h3, h4, h5, h6, button, input, textarea{
     }
     .title-header{
       color: $mainColor;
+    }
+    .pre-formatted {
+      white-space: pre-line;
     }
   }
 }

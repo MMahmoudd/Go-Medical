@@ -43,6 +43,7 @@ export default {
             description3: 'With a well known to most of the important medical institutes and hospitals allover Egypt and have great connections with the key opinion leaders in different fields of medicine.',
             description4: 'Having a strong bonds with so many countries in the MENA region and Africa, giving us the opportunities to expand widely.',
             btn: 'More About Us',
+            btnURL: '/aboutUs',
             img: articalImage,
           }
         };

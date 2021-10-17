@@ -19,6 +19,7 @@
 import headerComponent from '../components/globalComponents/global-header.vue'
 import articalComponent from '../components/globalComponents/global-Article.vue'
 import ourVisionComponent from '../components/aboutUs/ourVision.vue'
+
 import articalImage from '../assets/images/artical-image.png'
 import articalImage2 from '../assets/images/artical-image2.png'
 
@@ -40,7 +41,6 @@ export default {
             description2: 'Go medical is constantly expanding our portfolio in many fields as importing, distributing & marketing, manufacturing and health care providers.',
             description3: 'With a well known to most of the important medical institutes and hospitals allover Egypt and have great connections with the key opinion leaders in different fields of medicine.',
             description4: 'Having a strong bonds with so many countries in the MENA region and Africa, giving us the opportunities to expand widely.',
-            btn: 'More About Us',
             img: articalImage,
           },
           globalArticleData2: {

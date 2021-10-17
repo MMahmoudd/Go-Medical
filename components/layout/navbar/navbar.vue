@@ -2,7 +2,7 @@
 <div class="navbar-component">
   <div class="top-nav">
    <div class="d-flex container">
-      <div class="left d-flex">
+      <div class="left d-none d-md-flex d-sm-none d-xs-none">
       <div class="mr-2">
         <i class="fas fa-phone-alt"></i> <span> Phone: (002) 01061245741</span>
       </div>
@@ -24,7 +24,9 @@
       <img src="../../../assets/images/logo.svg" alt="logo">
     </b-navbar-brand>
 
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-navbar-toggle target="nav-collapse">
+      <i class="fas fa-bars"></i>
+    </b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <!-- Right aligned nav items -->

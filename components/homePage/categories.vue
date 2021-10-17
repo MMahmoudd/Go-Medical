@@ -58,7 +58,7 @@
                 </div>
                 <div class="swiper-slide">
                     <b-card
-                      title="Gastroscopy, Colonoscopy and Enteroscopy accessories"
+                      title="Stents system (SEMS)"
                       img-src="../../assets/images/category icon.svg"
                       img-alt="Image"
                       img-top
@@ -67,12 +67,12 @@
                       class="mb-2"
                     >
 
-                      <b-button to="/product/gastroscopy">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
+                      <b-button to="/product/stents-system">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
                     </b-card>
                 </div>
                 <div class="swiper-slide">
                     <b-card
-                      title="ERCP Accessories"
+                      title="Early cancer treatment by ESD"
                       img-src="../../assets/images/category icon.svg"
                       img-alt="Image"
                       img-top
@@ -81,12 +81,12 @@
                       class="mb-2"
                     >
 
-                      <b-button to="/product/gastroscopy">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
+                      <b-button to="/product/early-cancer">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
                     </b-card>
                 </div>
                 <div class="swiper-slide">
                     <b-card
-                      title="EUS Accessories"
+                      title="Hemostasis systems"
                       img-src="../../assets/images/category icon.svg"
                       img-alt="Image"
                       img-top
@@ -95,7 +95,21 @@
                       class="mb-2"
                     >
 
-                      <b-button to="/product/gastroscopy">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
+                      <b-button to="/product/hemostasis">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
+                    </b-card>
+                </div>
+                <div class="swiper-slide">
+                    <b-card
+                      title="Others"
+                      img-src="../../assets/images/category icon.svg"
+                      img-alt="Image"
+                      img-top
+                      tag="article"
+                      style="max-width: 20rem;"
+                      class="mb-2"
+                    >
+
+                      <b-button to="/product/others">Read More <i class="fas fa-arrow-right ml-2"></i></b-button>
                     </b-card>
                 </div>
             </div>
@@ -122,6 +136,18 @@ export default {
               autoplay: {
                 delay: 5000,
               },
+              breakpoints: {
+              // when window width is <= 768px
+              768: {
+                  slidesPerView: 1,
+                  spaceBetween: 20
+              },
+              // when window width is <= 992px
+              992: {
+                  slidesPerView: 2,
+                  spaceBetween: 30
+              }
+          }
             }
         };
     }
