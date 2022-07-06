@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/gastroscopy", {data:[{}],fetch:{},mutations:void 0});

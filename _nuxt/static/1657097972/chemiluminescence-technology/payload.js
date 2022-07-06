@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/chemiluminescence-technology", {data:[{}],fetch:{},mutations:void 0});

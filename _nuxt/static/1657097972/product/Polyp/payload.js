@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/Polyp", {data:[{}],fetch:{},mutations:void 0});

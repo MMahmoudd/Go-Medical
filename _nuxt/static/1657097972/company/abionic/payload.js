@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/company/abionic", {data:[{}],fetch:{},mutations:void 0});
