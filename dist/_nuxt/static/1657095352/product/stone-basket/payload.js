@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/stone-basket", {data:[{}],fetch:{},mutations:void 0});

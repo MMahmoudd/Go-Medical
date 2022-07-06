@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-vitro-diagnosis", {data:[{}],fetch:{},mutations:void 0});

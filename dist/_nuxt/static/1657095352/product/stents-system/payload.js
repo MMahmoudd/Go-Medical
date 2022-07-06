@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/stents-system", {data:[{}],fetch:{},mutations:void 0});

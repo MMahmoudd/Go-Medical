@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/early-cancer", {data:[{}],fetch:{},mutations:void 0});
