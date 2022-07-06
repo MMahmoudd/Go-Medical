@@ -35,7 +35,7 @@ export default {
         { src: '~/plugins/scroll', ssr: false }
     ],
     router: {
-        prefetchPayloads: false
+        prefetchPayloads: false,
     },
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
